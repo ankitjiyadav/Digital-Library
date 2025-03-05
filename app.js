@@ -6,7 +6,7 @@ const route = require("./routers/registration");
 app.use(express.json()); 
 app.use("/", route);
 
-// jitendra
+// jitendrag
 
 const port = server.rootServer;
 
