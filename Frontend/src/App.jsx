@@ -1,16 +1,14 @@
-import { useState } from 'react'
-
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Login from "./Components/Login";
 function App() {
-
   return (
-     <>
-<h1 class="text-3">
-    Hello world!
-  </h1>
-  <h2>MERN</h2> 
-  <p> i am docter in all..</p>
-      </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
