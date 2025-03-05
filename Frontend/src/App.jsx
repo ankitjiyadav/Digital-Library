@@ -4,9 +4,10 @@ function App() {
 
   return (
      <>
-<h1 class="text-3xl text-red-500">
+<h1 class="text-3">
     Hello world!
-  </h1>     </>
+  </h1>
+  <h2>MERN</h2>     </>
   )
 }
 
