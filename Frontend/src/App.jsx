@@ -7,7 +7,9 @@ function App() {
 <h1 class="text-3">
     Hello world!
   </h1>
-  <h2>MERN</h2>     </>
+  <h2>MERN</h2> 
+  <p> i am docter in all..</p>
+      </>
   )
 }
 
