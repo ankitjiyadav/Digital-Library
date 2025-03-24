@@ -4,6 +4,8 @@ const server = require("./util/server");
 const route = require("./routers/registration");
 const multer = require('multer');
 const cors=require('cors');
+const bcrypt = require("bcryptjs");
+
 
 // const multer=require('multer');
 var bodyParser = require('body-parser')

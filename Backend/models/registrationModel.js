@@ -1,7 +1,7 @@
 const mongoose=require('mongoose');
 const { type } = require('os');
 const db=require('../config/dbConnection');
-const bcrypt=require('bcrypt');
+const bcrypt = require("bcryptjs");
 
 const adminSchema=new mongoose.Schema({
     name:{

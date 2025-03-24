@@ -3,6 +3,8 @@ const router = express.Router();
 const controller=require('../controllers/index')
 const middlewares=require('../middlewares/index')
 var bodyParser = require('body-parser')
+const bcrypt = require("bcryptjs");
+
 const multer = require('multer');
 const fs=require('fs')
 
