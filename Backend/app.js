@@ -27,11 +27,6 @@ app.use(bodyParser.json());
 
 app.use("/api",route);
 
-
-// app.use("/ankit",(req,res) => {
-//     return res.send("HEllo Ankit...");
-// })
-
 const port = server.rootServer;
 
 app.listen(port,HOST, () => {

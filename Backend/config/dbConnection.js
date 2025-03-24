@@ -1,7 +1,7 @@
 
 const mongoose=require('mongoose');
 
-const url='mongodb://localhost:27017/libraryManagement'
+const url='mongodb+srv://ankitjiyadav9:LXfvHSAZEFTsKoYb@cluster0.p3wf5.mongodb.net/Digital-Library-System?retryWrites=true&w=majority&appName=Cluster0'
 
 
 const dbConnection=(dbUrl)=>{
